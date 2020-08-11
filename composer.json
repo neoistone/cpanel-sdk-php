@@ -14,7 +14,6 @@
         "psr-4": {"neoistone\\cpsdk\\": "src/"}
     },
     "require": {
-        "php": ">=*",
         "neoistone/cpanel-sdk-php": "*"
     },
     "autoload": {
