@@ -1,6 +1,6 @@
 # cpanel_sdk
 
-``Creating Cpanel User``
+##Creating Cpanel User
 ```
 <?php
  include __DIR__.'/class.whm.php';
