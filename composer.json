@@ -9,7 +9,7 @@
             "email": "dev@neoistone.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "*",
     "autoload": {
         "psr-4": {"neoistone\\cpsdk\\": "src/"}
     },
