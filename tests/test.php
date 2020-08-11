@@ -1,10 +1,10 @@
 <?php
 require_once( '../class.whm.php' );
 
-#* https://1.1.1.1:2087
-$WHM = new WHM( true , 'server2.neoistone.in' , 'root' , 'QWERvbn@123' );
+#* https://1.1.1.1
+$WHM = new WHM( true , 'hostname or ip' , 'root' , 'password or hash key' );
 
-#* http://1.1.1.1:2086
+#* http://1.1.1.1:
 # $WHM = new WHM( false , '1.1.1.1' , 'root' , 'pass' );
 
 
@@ -40,7 +40,7 @@ if($res['0'] == null){
 	echo 'account remove sussfully';
 }
 */
-$username = $_GET['id']
+/*$username = $_GET['id']
 echo $WHM->suspend_account($username,'test');
-
+*/
 ?>
