@@ -1,5 +1,19 @@
 {
+    "name": "neoistone/cpanel-sdk-php",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neoistone Hosting",
+            "email": "dev@neoistone.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"neoistone\\cpsdk\\": "src/"}
+    },
     "require": {
-        "neoistone/aws-sdk-php": "^3.148"
+       "neoistone/cpanel-sdk-php": "^3.148" 
     }
 }
