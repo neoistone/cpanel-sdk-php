@@ -1,0 +1,14 @@
+{
+    "name": "neoistone/cpanel-sdk",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Neoistone",
+            "email": "dev@neoistone.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
