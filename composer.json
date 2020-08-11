@@ -1,19 +1,5 @@
-"repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "weaverryan/derp-dangerzone",
-            "version": "dev-master",
-            "source": {
-                "url": "https://github.com/neoistone/cpanel_sdk.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "neoistone\\cpsdk" : "src"
-                }
-            }
-        }
+{
+    "require": {
+        "neoistone/aws-sdk-php": "^3.148"
     }
-],
+}
