@@ -1,5 +1,10 @@
 # cpanel sdk php
 
+## installtion ###
+```
+composer require neoistone/cpanel-sdk-php
+```
+
 ### Creating Cpanel User ###
 ```
 <?php
