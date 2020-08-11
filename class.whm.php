@@ -1,5 +1,6 @@
 <?PHP 
 
+namespace neoistone\cpsdk;
 class WHM
 {
 	private $HOST = '';
