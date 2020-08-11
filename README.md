@@ -2,7 +2,7 @@
 
 ## installtion ###
 ```
-composer require neoistone/cpanel-sdk-php
+composer require "neoistone/cpanel-sdk-php @dev"
 ```
 
 ### Creating Cpanel User ###
