@@ -1,5 +1,5 @@
 <?php
-require_once( '../class.whm.php' );
+require_once( '../src/class.whm.php' );
 
 #* https://1.1.1.1
 $WHM = new WHM( true , 'hostname or ip' , 'root' , 'password or hash key' );
