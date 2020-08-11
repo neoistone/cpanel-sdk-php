@@ -1,19 +1,19 @@
-{
-    "name": "neoistone/cpanel-sdk",
-    "description": "",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Neoistone",
-            "email": "dev@neoistone.com"
+"repositories": [
+    {
+        "type": "package",
+        "package": {
+            "name": "weaverryan/derp-dangerzone",
+            "version": "dev-master",
+            "source": {
+                "url": "https://github.com/neoistone/cpanel_sdk.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "neoistone\\cpsdk" : "src"
+                }
+            }
         }
-    ],
-    "minimum-stability": "stable",
-    "autoload": {
-        "psr-4": {"neoistone\\cpsdk\\": "src/"}
-    },
-    "require": {
-        "neoistone/cpanel-sdk": "^1.0"
     }
-}
+],
