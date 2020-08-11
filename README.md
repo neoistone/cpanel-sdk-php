@@ -1,4 +1,4 @@
-# cpanel_sdk
+# cpanel sdk php
 
 ### Creating Cpanel User ###
 ```
