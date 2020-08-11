@@ -10,7 +10,10 @@
         }
     ],
     "minimum-stability": "stable",
-      "require": {
-         "neoistone/cpanel-sdk": "^1.0"
-      }
+    "autoload": {
+        "psr-4": {"neoistone\\cpsdk\\": "src/"}
+    },
+    "require": {
+        "neoistone/cpanel-sdk": "^1.0"
+    }
 }
