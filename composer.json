@@ -9,11 +9,17 @@
             "email": "dev@neoistone.com"
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {"neoistone\\cpsdk\\": "src/"}
     },
     "require": {
-       "php": ">=7.4.3",
-       "neoistone/cpanel-sdk-php": "*"
+        "php": ">=*",
+        "neoistone/cpanel-sdk-php": "*"
     },
+    "autoload": {
+        "psr-4": {
+            "neoistone\\cpsdk\\": ""
+        }
+    }
 }
