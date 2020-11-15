@@ -27,8 +27,9 @@ print_r($WHM->create_account($data));
 ```
 <?php
 include_once('vendor/autoload.php');
+$username = $_GET['username'];
 $WHM = new WHM( false , '1.1.1.1' , 'root' , 'pass' );
-echo $WHM->login_with_user();
+echo $WHM->login_with_user($username);
 ?>
 ```
 RETURN login url
