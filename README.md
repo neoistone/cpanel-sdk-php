@@ -48,3 +48,12 @@ include_once('vendor/autoload.php');
  }
 ?>
 ```
+### suspend Accound ###
+```
+<?php
+include_once('vendor/autoload.php');
+$WHM = new WHM( false , '1.1.1.1' , 'root' , 'pass' );
+$username = $_GET['id'];
+echo $WHM->suspend_account($username,'test');
+?>
+```
